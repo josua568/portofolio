@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Magang</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+            color: #2c3e50;
+        }
+        header {
+            background: linear-gradient(90deg, #ff7f50, #ff4500);
+            color: #fff;
+            padding: 40px 20px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+        }
+        .social-links-header {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        .social-links-header a {
+            color: #fff;
+            margin: 0 10px;
+            font-size: 1.5em;
+            transition: color 0.3s;
+        }
+        .social-links-header a:hover {
+            color: #f0e68c;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0 0 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 20px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: #f0e68c;
+        }
+        section {
+            padding: 60px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        .project {
+            background-color: #ffefd5;
+            padding: 25px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+            border-radius: 8px;
+            transition: transform 0.3s;
+        }
+        .project:hover {
+            transform: scale(1.05);
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #4682b4;
+            color: #fff;
+        }
+        .social-links {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        .social-links a {
+            color: #25D366;
+            margin: 0 15px;
+            font-size: 3em;
+            transition: transform 0.3s, color 0.3s;
+        }
+        .social-links a.gmail {
+            color: #D44638;
+        }
+        .social-links a:hover {
+            transform: scale(1.2);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Josua Warman Sigalingging</h1>
+        <p>Mahasiswa  | Calon Intern di [fullstack developer dan android developer]</p>
+        <div class="social-links-header">
+            <a href="https://www.linkedin.com/in/josua-warman-sigalingging-74b308290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" aria-label="LinkedIn">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/josua586" target="_blank" aria-label="GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="mailto:josuasigalingging@gmail .com" target="_blank" aria-label="Email">
+                <i class="fas fa-envelope"></i>
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">Tentang Saya</a></li>
+                <li><a href="#projects">Proyek</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>Tentang Saya</h2>
+        <p>Saya adalah mahasiswa Jurusan Teknik Informatika di Universitas Trisakti, memiliki minat di bidang Software Development dan Cybersecurity. Berpengalaman dalam CSS, HTML, JavaScript, Python, Kotlin dan aktif mengikuti berbagai proyek pengembangan diri.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Proyek</h2>
+        <div class="project">
+            <h3>Proyek 1: Website E-Commerce</h3>
+            <p>Membangun website e-commerce menggunakan HTML, CSS, dan JavaScript. Berperan sebagai front-end developer dengan fokus pada UI/UX.</p>
+        </div>
+        <div class="project">
+            <h3>Proyek 2: Aplikasi Android Pengingat Tugas</h3>
+            <p>Mengembangkan aplikasi Android berbasis Kotlin untuk membantu pengguna mengatur dan mengingat tugas harian.</p>
+        </div>
+        <div class="project">
+            <h3>Proyek 3: aplikasi AI</h3>
+            <p>Membuat sistem AI untuk mendeteksi jenis rambut berdasarkan bentuk wajah dengan fokus pada backend dan machine learning.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Kontak</h2>
+        <p>"Jika Anda tertarik untuk berdiskusi lebih lanjut atau menjalin kerja sama dalam proyek, jangan ragu untuk menghubungi saya. Saya selalu terbuka untuk peluang kolaborasi dan tantangan baru. Silakan hubungi saya melalui [email/nomor telepon/linkedin] dan mari kita ciptakan sesuatu yang luar biasa bersama."</p>
+        <div class="social-links">
+            <a href="https://wa.me/0882017196726" target="_blank" aria-label="WhatsApp">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="mailto:josuasigalingging41@gmail.com" target="_blank" aria-label="Gmail" class="gmail">
+                <i class="fas fa-envelope"></i>
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 josua warman sigalingging. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
